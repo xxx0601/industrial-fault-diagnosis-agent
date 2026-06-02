@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment & secrets（勿提交真实密钥）
+.env
+.env.local
+.env.*.local
+**/.env
+!**/.env.example
+
+# Next.js / frontend build
+.next/
+**/.next/
+out/
+**/out/
+
+# Python / data
+*.log
+.chroma/
+**/chroma/
+data/
+*.db
+*.sqlite3
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Docker local overrides
+docker-compose.override.yml
