@@ -1,0 +1,35 @@
+{
+  "device_id": "CNC-001",
+  "logs": [
+    {
+      "time": "08:00",
+      "status": "NORMAL",
+      "temperature": 72,
+      "vibration": 3.2
+    },
+    {
+      "time": "09:00",
+      "fault_code": "E101",
+      "temperature": 78,
+      "vibration": 4.1
+    },
+    {
+      "time": "09:30",
+      "fault_code": "E305",
+      "temperature": 82,
+      "vibration": 5.0
+    },
+    {
+      "time": "10:00",
+      "fault_code": "E204",
+      "temperature": 88,
+      "vibration": 6.5
+    },
+    {
+      "time": "10:10",
+      "fault_code": "E410",
+      "temperature": 92,
+      "vibration": 8.2
+    }
+  ]
+}

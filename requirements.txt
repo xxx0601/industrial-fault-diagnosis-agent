@@ -1,0 +1,4 @@
+# Industrial Fault Diagnosis Agent — Python dependencies
+# Install from repository root:
+#   pip install -r requirements.txt
+-r backend/requirements.txt

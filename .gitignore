@@ -11,26 +11,39 @@ __pycache__/
 dist/
 build/
 
-# Environment & secrets（勿提交真实密钥）
+# Environment & secrets
 .env
 .env.local
 .env.*.local
 **/.env
 !**/.env.example
+!**/.env.local.example
 
-# Next.js / frontend build
+# Next.js
 .next/
 **/.next/
 out/
 **/out/
 
-# Python / data
+# Python logs & local debug
 *.log
-.chroma/
+backend/diag_body.json
+
+# Vector stores (generated)
+**/.chroma/
 **/chroma/
-data/
-*.db
-*.sqlite3
+backend/data/chroma/
+
+# Runtime indexes (keep samples)
+backend/data/*.json
+!backend/data/samples/**
+backend/data/.gitkeep
+
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+backend/knowledge_files/*
+!backend/knowledge_files/.gitkeep
 
 # IDE / OS
 .idea/
@@ -39,5 +52,5 @@ data/
 .DS_Store
 Thumbs.db
 
-# Docker local overrides
+# Docker
 docker-compose.override.yml

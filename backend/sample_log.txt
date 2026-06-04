@@ -1,0 +1,5 @@
+﻿Temperature: 96
+Pressure: 18
+RPM: 3500
+Vibration: 8.4
+Fault Code: E204
